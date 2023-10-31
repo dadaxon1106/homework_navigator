@@ -17,6 +17,38 @@ class CoursePage extends StatelessWidget {
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
+      body: const Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              "RUSSIAN LANGUAGE: NOT STUDIED",
+              style: TextStyle(fontSize: 22),
+            ),
+            SizedBox(
+              height: 14,
+            ),
+            Text(
+              "ENGLISH LANGUAGE: STUDIED",
+              style: TextStyle(fontSize: 22),
+            ),
+            SizedBox(
+              height: 14,
+            ),
+            Text(
+              "MATH: NOT STUDIED",
+              style: TextStyle(fontSize: 22),
+            ),
+            SizedBox(
+              height: 14,
+            ),
+            Text(
+              "KOREAN LANGUAGE:STUDIED",
+              style: TextStyle(fontSize: 22),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

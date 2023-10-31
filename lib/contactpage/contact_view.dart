@@ -10,18 +10,24 @@ class ContactPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Contact Us"),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.blue,
         foregroundColor: Colors.black,
       ),
       body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Telegramm: @GANYMEDE_IB"),
+            Text(
+              "Telegramm: @GANYMEDE_IB",
+              style: TextStyle(color: Colors.blue, fontSize: 23),
+            ),
             SizedBox(
               height: 14,
             ),
-            Text("+99895 114 44 60"),
+            Text(
+              "+99895 114 44 60",
+              style: TextStyle(color: Colors.blue, fontSize: 23),
+            ),
           ],
         ),
       ),
